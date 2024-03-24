@@ -1,0 +1,15 @@
+body {
+    font-weight: Ariel, sans-serif;
+    background-color: black;
+    text-align: center;
+}
+
+.image container {
+    display: inline-block;
+    margin: 20px;
+}
+
+img {
+    max-width: 100;
+    border: 1px solid #9b1313;
+}
