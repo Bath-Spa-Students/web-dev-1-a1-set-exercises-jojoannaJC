@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="button.css">
+    <script src ="calculate.js"></script>
+    <title>Petrol Calender</title>
+
+</head>
+<body>
+    <!--a system for calculating price of petrol per litre-->
+    <h1>Petrol Calculator</h1>
+    <div class="wrap">
+    <div>
+        <p>Price of petrol per litre</p>
+    <input id="Petrol_Price" placeholder="1.72" type="number">
+    </div>
+    <div>
+        <p>Litres</p>
+        <input id="litres" placeholder="0" type="number">
+    </div>
+    </div>
+    <!--A button for calculating the amount-->
+    <div id="button1">
+        <button onclick="calculate()"> Total Amount</button>
+        <p>Total Amount:</p>
+        <h2 id="TotalAmount"></h2>
+    </div>
+    </div>
+
+</body>
+</html>
