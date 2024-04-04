@@ -1,0 +1,67 @@
+.container{
+    background-color: rgb(31, 3, 74);
+    text-align: center;
+    font-family: Arial;
+    padding: 30px;
+}
+
+.title h1{
+    font-size: 50px;
+    text-decoration: underline;
+    color: white;
+    font-weight: bolder;
+    font-family: Tahoma;
+}
+
+.title h2{
+    color: white;
+    word-spacing: 25px;
+    font-weight: lighter;
+    font: 45px;
+}
+
+.lcontent{
+    float: left;
+    font-family: Arial;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    width: 50%;
+    padding: 2%;
+}
+
+.lcontent h2{
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.rcontent{
+    float: right;
+    font-family: Arial;
+    font-size: 22px;
+    color: white;
+    background-color: rgb(16, 43, 123);
+    width: 25%;
+    padding: 5%;
+    height: auto;
+    padding-top: 7%;
+}
+
+.rcontent h2{
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+
+.footer {
+    font-family: Arial;
+    text-align: center;
+    color: white;
+    background-color: rgb(115, 38, 186);
+    padding: 1%;
+    float: end;
+    font-weight: 100;
+}
