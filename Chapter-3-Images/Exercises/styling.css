@@ -1,15 +1,21 @@
 body {
-    font-weight: Ariel, sans-serif;
-    background-color: black;
+    font-weight: Arial, sans-serif;
+    background-color: white;
     text-align: center;
+    font-size: 20px;
 }
 
-.image container {
+.image.container {
     display: inline-block;
     margin: 20px;
 }
 
 img {
-    max-width: 100;
-    border: 1px solid #9b1313;
+    border: 1px solid #360707;
+}
+
+.image.info {
+    text-align: left;
+    font-weight: lighter;
+    color: gray;
 }
